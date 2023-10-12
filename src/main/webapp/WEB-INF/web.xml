@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>HomeServletController</display-name>
+    <servlet-name>HomeServletController</servlet-name>
+    <servlet-class>Controller.HomeServletController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServletController</servlet-name>
+    <url-pattern>/HomeServletController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TeamServletController</display-name>
+    <servlet-name>TeamServletController</servlet-name>
+    <servlet-class>Controller.TeamServletController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeamServletController</servlet-name>
+    <url-pattern>/TeamServletController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ListProductServlet</display-name>
+    <servlet-name>ListProductServlet</servlet-name>
+    <servlet-class>Controller.ListProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListProductServlet</servlet-name>
+    <url-pattern>/ListProductServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
